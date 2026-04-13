@@ -1,0 +1,3818 @@
+[
+  {
+    "company": "acciona",
+    "n_es_total": 1378,
+    "n_untranslated": 276,
+    "threshold": 0.8332,
+    "n_topics": 7,
+    "n_esg_topics": 4,
+    "n_esg_docs": 137,
+    "pct_esg": 49.6,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Cookie/tracking boilerplate (noise)",
+        "category": "Noise",
+        "is_esg": false,
+        "count": 52,
+        "keywords": [
+          "cookies",
+          "_tt_enable_cookie",
+          "tiktok",
+          "lastexternalreferrer",
+          "google",
+          "preferencias",
+          "utiliza",
+          "_ga_",
+          "meta",
+          "personalization_id"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Wind & renewable energy projects",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 50,
+        "keywords": [
+          "eólica",
+          "windpower",
+          "energías",
+          "aerogeneradores",
+          "energética",
+          "fotovoltaica",
+          "renovables",
+          "sostenibilidad",
+          "fundación",
+          "eólico"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Infrastructure & transport construction",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 49,
+        "keywords": [
+          "autovía",
+          "túnel",
+          "transporte",
+          "tuneladora",
+          "infraestructuras",
+          "construcción",
+          "tráfico",
+          "puente",
+          "tranvía",
+          "excavación"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Water treatment & desalination plants",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 41,
+        "keywords": [
+          "depuradoras",
+          "depuradora",
+          "instalaciones",
+          "depuración",
+          "estación",
+          "mantenimiento",
+          "cuenca",
+          "capacidad",
+          "procesos",
+          "potable"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Electric mobility & shared scooters",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 25,
+        "keywords": [
+          "motosharing",
+          "movilidad",
+          "motos",
+          "transporte",
+          "scooters",
+          "vehículos",
+          "ambulancias",
+          "eléctricos",
+          "servicios",
+          "compartidas"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Corporate strategy & real estate",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 23,
+        "keywords": [
+          "infraestructuras",
+          "acciona",
+          "inversión",
+          "inmobiliaria",
+          "construcción",
+          "corporativas",
+          "ebitda",
+          "crecimiento",
+          "energía",
+          "zonas"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Gender equality & disability inclusion",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 21,
+        "keywords": [
+          "mujeres",
+          "igualdad",
+          "fundación",
+          "agencia",
+          "empresa",
+          "laborales",
+          "violencia",
+          "campaña",
+          "discapacidad",
+          "empleo"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "acerinox",
+    "n_es_total": 257,
+    "n_untranslated": 52,
+    "threshold": 0.873,
+    "n_topics": 3,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Dividends & financial results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 20,
+        "keywords": [
+          "dividendo",
+          "acerinox",
+          "acuerdos",
+          "aumento",
+          "asignación",
+          "retribución",
+          "consolidado",
+          "impuestos",
+          "emisión",
+          "cuenta"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Steel production & factory expansion",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 17,
+        "keywords": [
+          "acerinox",
+          "aceros",
+          "acería",
+          "empresas",
+          "mejora",
+          "fábrica",
+          "crecimiento",
+          "laminación",
+          "producción",
+          "2014"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Stainless steel engineering & architecture",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "aceros",
+          "acero",
+          "acerinox",
+          "ingenieros",
+          "ingeniería",
+          "corrosión",
+          "arquitectura",
+          "puente",
+          "corrugado",
+          "construcción"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "acs",
+    "n_es_total": 307,
+    "n_untranslated": 62,
+    "threshold": 0.6028,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Infrastructure & transport projects",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 29,
+        "keywords": [
+          "infraestructuras",
+          "infraestructura",
+          "proyectos",
+          "construcción",
+          "tránsito",
+          "autopista",
+          "puente",
+          "movilidad",
+          "transporte",
+          "desarrollo"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Data centers & building construction",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 26,
+        "keywords": [
+          "infraestructuras",
+          "centers",
+          "centros",
+          "campus",
+          "edificio",
+          "construcción",
+          "empresa",
+          "construirá",
+          "memphis",
+          "construir"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "amadeus",
+    "n_es_total": 172,
+    "n_untranslated": 36,
+    "threshold": 0.8454,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Travel industry & financial results",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 23,
+        "keywords": [
+          "amadeus",
+          "aerolíneas",
+          "vuelos",
+          "aérea",
+          "embarcados",
+          "trimestre",
+          "pasajeros",
+          "ebitda",
+          "reservas",
+          "destinos"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Travel technology & hotel partnerships",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "amadeus",
+          "airways",
+          "viajes",
+          "viaje",
+          "viajero",
+          "hotels",
+          "acceder",
+          "hotelera",
+          "reservar",
+          "tarifas"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "arcelormittal",
+    "n_es_total": 299,
+    "n_untranslated": 60,
+    "threshold": 0.7232,
+    "n_topics": 2,
+    "n_esg_topics": 1,
+    "n_esg_docs": 35,
+    "pct_esg": 58.3,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Steel production & sustainability in Asturias",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 35,
+        "keywords": [
+          "acero",
+          "arcelormittal",
+          "horno",
+          "asturias",
+          "empresa",
+          "sostenibilidad",
+          "energía",
+          "reducción",
+          "proceso",
+          "producción"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Regulatory compliance & share buybacks",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "arcelormittal",
+          "responsabilidad",
+          "reglamento",
+          "corporate",
+          "buyback",
+          "recompra",
+          "anuncia",
+          "autocartera",
+          "cumplimiento",
+          "oam"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "bancosabadell",
+    "n_es_total": 875,
+    "n_untranslated": 175,
+    "threshold": 0.6186,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Local business partnerships & sponsorships",
+        "category": "Local",
+        "is_esg": false,
+        "count": 139,
+        "keywords": [
+          "empresas",
+          "banco",
+          "empresa",
+          "financiación",
+          "patrocinios",
+          "fundación",
+          "sabadell",
+          "negocio",
+          "barcelona",
+          "servicios"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Startup accelerator (BStartup)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 36,
+        "keywords": [
+          "startups",
+          "bstartup",
+          "empresa",
+          "financiación",
+          "plataforma",
+          "empresas",
+          "fundada",
+          "desarrollo",
+          "inversores",
+          "ceo"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "bancosantander",
+    "n_es_total": 2639,
+    "n_untranslated": 528,
+    "threshold": 0.6636,
+    "n_topics": 11,
+    "n_esg_topics": 5,
+    "n_esg_docs": 277,
+    "pct_esg": 52.5,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "University partnerships & employability",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 223,
+        "keywords": [
+          "bancosantander",
+          "santander",
+          "universidad",
+          "gruposantander",
+          "empleo",
+          "financiación",
+          "boadilla",
+          "empleabilidad",
+          "fundación",
+          "financiera"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Agri-food sector financing",
+        "category": "Local",
+        "is_esg": false,
+        "count": 56,
+        "keywords": [
+          "santander",
+          "agroalimentario",
+          "agricultores",
+          "cooperativas",
+          "agro",
+          "financiación",
+          "viticultores",
+          "ganaderos",
+          "sostenibilidad",
+          "apoyar"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Summer courses & university seminars",
+        "category": "Local",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "seminarios",
+          "prensacursos",
+          "cursos",
+          "universidad",
+          "curso",
+          "bancosantander",
+          "logroño",
+          "actividades",
+          "campus",
+          "patrocinio"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Mortgage & retail banking products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "hipotecas",
+          "hipoteca",
+          "hipotecario",
+          "openbank",
+          "préstamo",
+          "apertura",
+          "banco",
+          "renta",
+          "fondos",
+          "rebaja"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Entrepreneurship programs",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 16,
+        "keywords": [
+          "emprendedores",
+          "emprendedora",
+          "emprendedoras",
+          "emprendimiento",
+          "emprendedor",
+          "santander",
+          "entrepreneurship",
+          "economías",
+          "bancosantander",
+          "oportunidades"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Summer courses (Complutense)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "cursosdeverano",
+          "cursos",
+          "curso",
+          "universidad",
+          "santander",
+          "complutense",
+          "ucm",
+          "encuentro",
+          "patrocinio",
+          "actividades"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Youth entrepreneurship (Yuzz/Santander)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 15,
+        "keywords": [
+          "emprendedores",
+          "emprendimiento",
+          "yuzzers",
+          "jóvenes",
+          "santander",
+          "bancosantander",
+          "proyectos",
+          "universidad",
+          "participantes",
+          "innovación"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "SME awards & internationalization",
+        "category": "Local",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "pyme",
+          "pymes",
+          "premios",
+          "empresas",
+          "internacionalización",
+          "galardonadas",
+          "pequeñas",
+          "2023",
+          "santander",
+          "compiten"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "University entrepreneurship (RedEmprendia)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 13,
+        "keywords": [
+          "emprendimiento",
+          "emprendedores",
+          "emprendedoras",
+          "universidad",
+          "universidades",
+          "santander",
+          "model2market",
+          "universia",
+          "empresas",
+          "proyecto"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "Literary prizes & cultural sponsorship",
+        "category": "Local",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "bonald",
+          "santander",
+          "galardonado",
+          "santos",
+          "ensayos",
+          "fcbonald",
+          "cervantesvirtual",
+          "fundación",
+          "premiada",
+          "lafuente"
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "Scientific research funding (CSIC)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "investigadores",
+          "investigaciones",
+          "investigadora",
+          "investigador",
+          "científicos",
+          "csic",
+          "fundación",
+          "fgcsic",
+          "proyectos",
+          "santander"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "bankinter",
+    "n_es_total": 1031,
+    "n_untranslated": 209,
+    "threshold": 0.7364,
+    "n_topics": 7,
+    "n_esg_topics": 1,
+    "n_esg_docs": 45,
+    "pct_esg": 21.5,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Retail banking products & services",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 66,
+        "keywords": [
+          "bankinter",
+          "banco",
+          "financieros",
+          "inversión",
+          "banca",
+          "cuenta",
+          "cuentas",
+          "privada",
+          "tarjeta",
+          "servicios"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "CSR, accessibility & financial inclusion",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 45,
+        "keywords": [
+          "bankinter",
+          "banco",
+          "empresa",
+          "accesibilidad",
+          "financiera",
+          "corporativa",
+          "empresas",
+          "fundación",
+          "financiación",
+          "sostenible"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Investment & pension products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "inverplus",
+          "inversión",
+          "pensiones",
+          "fondo",
+          "rentabilidad",
+          "garantía",
+          "seguro",
+          "bankinter",
+          "depósito",
+          "renta"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Mortgage products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "hipoteca",
+          "hipotecarios",
+          "hipotecarias",
+          "hipotecas",
+          "hipotecaria",
+          "hipotecario",
+          "financiación",
+          "bankinter",
+          "préstamo",
+          "interés"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "SME & corporate lending",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "financiación",
+          "bankinter",
+          "crédito",
+          "banco",
+          "préstamos",
+          "banca",
+          "garantías",
+          "financieros",
+          "empresarial",
+          "apoyo"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Innovation & megatrends investing",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 14,
+        "keywords": [
+          "megatrends",
+          "megatendencias",
+          "innovación",
+          "emprendedores",
+          "tendencias",
+          "trends",
+          "iniciativa",
+          "futuro",
+          "proyectos",
+          "ideas"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Regulatory provisions & capital ratios",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 12,
+        "keywords": [
+          "provisiones",
+          "bankinter",
+          "normativa",
+          "exigencias",
+          "cifra",
+          "retribución",
+          "reducción",
+          "requerimientos",
+          "neto",
+          "ratios"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "bbva",
+    "n_es_total": 953,
+    "n_untranslated": 191,
+    "threshold": 0.6508,
+    "n_topics": 10,
+    "n_esg_topics": 1,
+    "n_esg_docs": 21,
+    "pct_esg": 11.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Mexico economic outlook (BBVA Research)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 27,
+        "keywords": [
+          "económico",
+          "méxico",
+          "inflación",
+          "crecimiento",
+          "sectores",
+          "trimestre",
+          "promedio",
+          "pib",
+          "tasas",
+          "pesos"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Real estate & housing market analysis",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "viviendas",
+          "vivienda",
+          "inmobiliario",
+          "inmobiliaria",
+          "crecimiento",
+          "casa",
+          "ventas",
+          "estate",
+          "barrios",
+          "españa"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Migration & remittances (Mexico)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 21,
+        "keywords": [
+          "migratoria",
+          "migrantes",
+          "migración",
+          "mexicanos",
+          "remittances",
+          "mexico",
+          "migration",
+          "población",
+          "anual",
+          "pesos"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Retail banking & digital payments",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 20,
+        "keywords": [
+          "bbva",
+          "bancomer",
+          "banco",
+          "inversión",
+          "clientes",
+          "fundación",
+          "cuenta",
+          "nuevo",
+          "bizum",
+          "pago"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Regional economic analysis (Spain)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 19,
+        "keywords": [
+          "crecimiento",
+          "económica",
+          "valenciana",
+          "demanda",
+          "asturias",
+          "2016",
+          "regiones",
+          "pib",
+          "navarra",
+          "exportaciones"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Spanish & global economic outlook",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "crecimiento",
+          "económico",
+          "pib",
+          "española",
+          "madrid",
+          "demanda",
+          "exportaciones",
+          "trimestre",
+          "emprendimientos",
+          "recuperación"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Banking sector & fintech analysis",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "bancaria",
+          "bancos",
+          "financiera",
+          "banca",
+          "banking",
+          "banco",
+          "fintech",
+          "financial",
+          "sistema",
+          "corporativa"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "Pensions & retirement savings",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "pensiones",
+          "encuesta",
+          "población",
+          "ahorro",
+          "consumo",
+          "bbva",
+          "jubilaciondefuturo",
+          "financiera",
+          "españa",
+          "público"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "Mexico real estate & construction",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "construcción",
+          "hipotecario",
+          "crecimiento",
+          "vivienda",
+          "pib",
+          "infraestructura",
+          "tasas",
+          "méxico",
+          "estadístico",
+          "contracción"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "Mexico banking & credit analysis",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "bancario",
+          "crédito",
+          "financiamiento",
+          "financiero",
+          "económica",
+          "préstamos",
+          "depreciación",
+          "liquidez",
+          "depósitos",
+          "crecimiento"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "caixa",
+    "n_es_total": 5039,
+    "n_untranslated": 1010,
+    "threshold": 0.6522,
+    "n_topics": 9,
+    "n_esg_topics": 3,
+    "n_esg_docs": 96,
+    "pct_esg": 9.5,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "General banking & local business events",
+        "category": "Local",
+        "is_esg": false,
+        "count": 716,
+        "keywords": [
+          "caixabank",
+          "financiación",
+          "banca",
+          "financiera",
+          "clientes",
+          "privada",
+          "2025",
+          "consumo",
+          "madrid",
+          "empresas"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Entrepreneurship awards (EmprendedorXXI)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 65,
+        "keywords": [
+          "emprendedorxxi",
+          "emprendexxi",
+          "emprendedores",
+          "emprendimiento",
+          "emprendedor",
+          "innovadora",
+          "empresas",
+          "carácterempresa",
+          "empresarial",
+          "internacionalización"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Music festivals & cultural sponsorship",
+        "category": "Local",
+        "is_esg": false,
+        "count": 26,
+        "keywords": [
+          "concierto",
+          "conciertos",
+          "festival",
+          "espectadores",
+          "patrocinio",
+          "orozco",
+          "barcelona",
+          "cabra",
+          "caixabank",
+          "asistencia"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Agri-food research (AgroBank)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 26,
+        "keywords": [
+          "agroalimentario",
+          "agrobank",
+          "bioactivos",
+          "agricultura",
+          "investigadora",
+          "bebidas",
+          "vino",
+          "investigación",
+          "máster",
+          "convocatoria"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Venture capital & startup investment",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "inversión",
+          "invierten",
+          "financiación",
+          "caixa",
+          "compañía",
+          "industriales",
+          "tecnologías",
+          "business",
+          "fármacos",
+          "nanogap"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Torre Sevilla real estate development",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 17,
+        "keywords": [
+          "sevilla",
+          "comercial",
+          "puerto",
+          "centro",
+          "rascacielos",
+          "oficinas",
+          "inversión",
+          "cuadrados",
+          "edificio",
+          "proyecto"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Microcredit & social entrepreneurship (MicroBank)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 16,
+        "keywords": [
+          "microcrédito",
+          "microempresas",
+          "emprendedores",
+          "emprendedoras",
+          "microbank",
+          "emprendedora",
+          "microcréditos",
+          "emprendimiento",
+          "financiación",
+          "apoyo"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "Vocational training & employability",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 15,
+        "keywords": [
+          "fpempresa",
+          "empleo",
+          "profesiones",
+          "oportunidades",
+          "ocupaciones",
+          "empleabilidad",
+          "jobs",
+          "sectores",
+          "competitividad",
+          "2035"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "Housing market analysis",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "viviendas",
+          "vivienda",
+          "inmobiliario",
+          "inmobiliaria",
+          "cataluña",
+          "precios",
+          "comarca",
+          "venta",
+          "vallès",
+          "apce"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "cellnex",
+    "n_es_total": 335,
+    "n_untranslated": 67,
+    "threshold": 0.877,
+    "n_topics": 3,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Financial results & startup investment",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 29,
+        "keywords": [
+          "cellnex",
+          "ingresos",
+          "ebitda",
+          "telecom",
+          "ebitdaal",
+          "compañía",
+          "negocio",
+          "fcf",
+          "crecimiento",
+          "startups"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "5G & telecom infrastructure",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 21,
+        "keywords": [
+          "5g",
+          "telecomunicaciones",
+          "conectividad",
+          "5gmed",
+          "infraestructuras",
+          "ferrocarril",
+          "contrato",
+          "comunicaciones",
+          "móviles",
+          "cellnex"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Board appointments & governance",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 14,
+        "keywords": [
+          "ejecutivo",
+          "ceo",
+          "consejeros",
+          "cellnex",
+          "comisión",
+          "telecomunicaciones",
+          "compañía",
+          "miembros",
+          "martinez",
+          "nombramiento"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "colonial",
+    "n_es_total": 338,
+    "n_untranslated": 71,
+    "threshold": 0.7322,
+    "n_topics": 3,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Real estate operations & COVID aid",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 41,
+        "keywords": [
+          "inmobiliaria",
+          "alquiler",
+          "rentas",
+          "2007",
+          "colonial",
+          "ingresos",
+          "barcelona",
+          "julio",
+          "adquisición",
+          "mercado"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Mergers & acquisitions",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 12,
+        "keywords": [
+          "fusión",
+          "adquisición",
+          "acuerdo",
+          "inmocaral",
+          "inmobiliaria",
+          "folleto",
+          "sociedades",
+          "corporation",
+          "absorción",
+          "conformidad"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Dividends & shareholder returns",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "dividendos",
+          "dividendo",
+          "colonial",
+          "aumento",
+          "inmobiliaria",
+          "cotización",
+          "2003",
+          "reparto",
+          "rentabilidad",
+          "increment"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "enagas",
+    "n_es_total": 588,
+    "n_untranslated": 118,
+    "threshold": 0.8859,
+    "n_topics": 6,
+    "n_esg_topics": 3,
+    "n_esg_docs": 74,
+    "pct_esg": 62.7,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "LNG maritime fuel & decarbonization",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 35,
+        "keywords": [
+          "lnghive2",
+          "combustibles",
+          "descarbonización",
+          "marítimo",
+          "portuaria",
+          "combustible",
+          "lngas",
+          "transporte",
+          "barco",
+          "biognl"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Hydrogen & renewable gas infrastructure",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 27,
+        "keywords": [
+          "hidrógeno",
+          "gasista",
+          "enagás",
+          "infraestructuras",
+          "renovables",
+          "biogás",
+          "energética",
+          "gas",
+          "descarbonización",
+          "naturgy"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Corporate governance & gas pipelines",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 23,
+        "keywords": [
+          "enagás",
+          "ejecutivo",
+          "consejero",
+          "gasoducto",
+          "gasoductos",
+          "compañía",
+          "gonzalo",
+          "gasista",
+          "eficiencia",
+          "gas"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Corporate excellence & sustainability awards",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "enagás",
+          "excelencia",
+          "aegfa",
+          "fundación",
+          "compañía",
+          "conciliación",
+          "energética",
+          "empresas",
+          "efr",
+          "corporativa"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Gas demand & consumption statistics",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "consumo",
+          "consumos",
+          "demanda",
+          "electricidad",
+          "gasista",
+          "aumentado",
+          "eléctrico",
+          "máximos",
+          "madrid",
+          "temperaturas"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Bond issuance & financing",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "enagás",
+          "enagas",
+          "emisión",
+          "financiación",
+          "bonos",
+          "cupón",
+          "euro",
+          "vencimientos",
+          "deuda",
+          "bancaria"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "endesa",
+    "n_es_total": 2417,
+    "n_untranslated": 484,
+    "threshold": 0.821,
+    "n_topics": 18,
+    "n_esg_topics": 13,
+    "n_esg_docs": 208,
+    "pct_esg": 43.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Grid infrastructure & digitalization",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 71,
+        "keywords": [
+          "endesa",
+          "energética",
+          "energías",
+          "infraestructuras",
+          "digitalización",
+          "distribuida",
+          "suministro",
+          "renovables",
+          "eléctrico",
+          "subestaciones"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Electricity tariffs & customer products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 71,
+        "keywords": [
+          "endesa",
+          "establetarifas",
+          "onlinetarifa",
+          "tarifas",
+          "tarifa",
+          "electricidad",
+          "etarifas",
+          "endesatarifa",
+          "telefónicasluz",
+          "clientestarifas"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Solar energy & environmental projects",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 52,
+        "keywords": [
+          "endesa",
+          "fotovoltaica",
+          "fotovoltaicos",
+          "renovables",
+          "solar",
+          "instalaciones",
+          "energía",
+          "medioambiente",
+          "sostenibilidad",
+          "proyectos"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Basketball sponsorship (Liga Endesa)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 34,
+        "keywords": [
+          "endesa",
+          "baloncesto",
+          "federación",
+          "competición",
+          "patrocinio",
+          "supercopa",
+          "fundación",
+          "europeo",
+          "femenina",
+          "copa"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Thermal plant demolition & waste management",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 20,
+        "keywords": [
+          "endesa",
+          "energética",
+          "demolición",
+          "residuos",
+          "térmica",
+          "desmantelamiento",
+          "centrales",
+          "andorra",
+          "fuel",
+          "toneladas"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Electric mobility & EV charging",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 18,
+        "keywords": [
+          "movilidad",
+          "endesa",
+          "electrificación",
+          "cargadores",
+          "transporte",
+          "eléctricos",
+          "patrocinador",
+          "infraestructura",
+          "recarga",
+          "transición"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Smart meters & energy efficiency",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 16,
+        "keywords": [
+          "endesa",
+          "contadores",
+          "instalados",
+          "telegestión",
+          "infoenergía",
+          "inteligente",
+          "energéticos",
+          "consumos",
+          "consumo",
+          "dispositivos"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "Biodiversity conservation (birds/bats)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 14,
+        "keywords": [
+          "birding",
+          "biodiversidad",
+          "búho",
+          "conservación",
+          "cataluña",
+          "especie",
+          "migratorios",
+          "población",
+          "pollos",
+          "seguimiento"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "Senior & social entrepreneurship",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 14,
+        "keywords": [
+          "emprendedores",
+          "emprendedoras",
+          "emprendimientos",
+          "emprendimiento",
+          "digitalización",
+          "proyectos",
+          "endesa",
+          "emprende",
+          "iniciativa",
+          "fundación"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "Music festivals & cultural events",
+        "category": "Local",
+        "is_esg": false,
+        "count": 12,
+        "keywords": [
+          "conciertos",
+          "festival",
+          "endesa",
+          "evento",
+          "patrocinador",
+          "sostenible",
+          "espacio",
+          "zaragoza",
+          "actividades",
+          "emocionar"
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "Eco-innovation & sustainability awards",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "ecoinnovación",
+          "hackathon",
+          "neologismos",
+          "energético",
+          "endesa",
+          "tecnicismos",
+          "premios",
+          "fundación",
+          "mediomabiental",
+          "proyecto"
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "Senior worker unemployment",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "desempleados",
+          "sénior",
+          "seniors",
+          "edad",
+          "desempleo",
+          "mayores",
+          "trabajadores",
+          "empleo",
+          "población",
+          "50"
+        ]
+      },
+      {
+        "topic_id": 12,
+        "label": "Bat conservation near hydroelectric plants",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "quirópteros",
+          "endesa",
+          "murciélagos",
+          "biodiversidad",
+          "medioambientales",
+          "fauna",
+          "mamíferos",
+          "conservación",
+          "cataluña",
+          "parques"
+        ]
+      },
+      {
+        "topic_id": 13,
+        "label": "Wind energy & renewable PPAs",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "eólica",
+          "endesa",
+          "alcoa",
+          "renovables",
+          "energía",
+          "eléctrico",
+          "eólicos",
+          "sostenible",
+          "cooperativa",
+          "acuerdo"
+        ]
+      },
+      {
+        "topic_id": 14,
+        "label": "Circular economy & academia",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "económico",
+          "endesa",
+          "circular",
+          "sostenible",
+          "descarbonización",
+          "empresa",
+          "universidad",
+          "desarrollo",
+          "renovables",
+          "academia"
+        ]
+      },
+      {
+        "topic_id": 15,
+        "label": "River regulation for water sports (Noguera Pallaresa)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "noguera",
+          "pallaresa",
+          "río",
+          "balseros",
+          "rafting",
+          "piragüismo",
+          "pallars",
+          "regulación",
+          "canoa",
+          "actividades"
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "Energy transition & just transition projects",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "endesa",
+          "energética",
+          "energías",
+          "transición",
+          "proyectos",
+          "renovables",
+          "portugal",
+          "españoles",
+          "andorra",
+          "híbrido"
+        ]
+      },
+      {
+        "topic_id": 17,
+        "label": "Rooftop solar & self-consumption",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "fotovoltaicas",
+          "fotovoltaicos",
+          "endesa",
+          "energéticas",
+          "solar",
+          "autoconsumo",
+          "institución",
+          "instalación",
+          "instalarán",
+          "absorción"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ferrovial",
+    "n_es_total": 514,
+    "n_untranslated": 103,
+    "threshold": 0.8722,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Financial results & airport traffic",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 81,
+        "keywords": [
+          "ferrovial",
+          "infraestructuras",
+          "ventas",
+          "heathrow",
+          "dividendos",
+          "tráficos",
+          "aeropuertos",
+          "aeropuerto",
+          "beneficio",
+          "crecimiento"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Road & highway construction",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "autovía",
+          "ferrovial",
+          "carreteras",
+          "carretera",
+          "carriles",
+          "tráfico",
+          "vía",
+          "transporte",
+          "infraestructuras",
+          "financiación"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "fluidra",
+    "n_es_total": 203,
+    "n_untranslated": 41,
+    "threshold": 0.8912,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Pool industry & swimming sponsorship",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "piscinas",
+          "fluidra",
+          "piscina",
+          "natación",
+          "cookies",
+          "agua",
+          "wellness",
+          "consent",
+          "we",
+          "equipamiento"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Financial results & acquisitions",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 19,
+        "keywords": [
+          "fluidra",
+          "ebitda",
+          "piscinas",
+          "facturación",
+          "trimestre",
+          "fabtronics",
+          "negocio",
+          "multinacional",
+          "fusión",
+          "2019"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "grifols",
+    "n_es_total": 596,
+    "n_untranslated": 120,
+    "threshold": 0.6799,
+    "n_topics": 5,
+    "n_esg_topics": 1,
+    "n_esg_docs": 26,
+    "pct_esg": 21.7,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "FDA approvals & pharmaceutical products",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 36,
+        "keywords": [
+          "fibrinógeno",
+          "grifols",
+          "fda",
+          "grfs",
+          "grf",
+          "biotest",
+          "vitro",
+          "autorizados",
+          "plasmáticos",
+          "pacientes"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Transparency & CSR programs",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 26,
+        "keywords": [
+          "grifols",
+          "transferencias",
+          "grf",
+          "organizaciones",
+          "europa",
+          "transparencia",
+          "sanitarios",
+          "2022",
+          "emisiones",
+          "empresas"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Oncology immunotherapy research (GigaGen)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "ctla",
+          "inmunoterapia",
+          "oncológico",
+          "giga",
+          "antitumoral",
+          "grifols",
+          "tumores",
+          "564",
+          "fármaco",
+          "inmunodeficiencias"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Corporate governance & appointments",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "grifols",
+          "grfs",
+          "grf",
+          "glanzmann",
+          "ejecutivo",
+          "financieros",
+          "comisión",
+          "compañía",
+          "2024",
+          "nasdaq"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Immunoglobulin & clinical trials",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "grifols",
+          "fda",
+          "inmunoglobulinas",
+          "inmunoglobulina",
+          "grfs",
+          "colirio",
+          "autoinmunes",
+          "siglas",
+          "ébola",
+          "clínico"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "iag",
+    "n_es_total": 297,
+    "n_untranslated": 60,
+    "threshold": 0.8706,
+    "n_topics": 4,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Quarterly financial results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "iag",
+          "airways",
+          "trimestre",
+          "2024",
+          "beneficio",
+          "ingresos",
+          "aumentaron",
+          "2022",
+          "crédito",
+          "tercer"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Regulatory filings & acquisitions",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "iag",
+          "airlines",
+          "restricciones",
+          "boeing",
+          "consolidated",
+          "propias",
+          "comisión",
+          "international",
+          "737",
+          "adquisición"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Bond issuance",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 12,
+        "keywords": [
+          "bonos",
+          "emisión",
+          "convertibles",
+          "emisor",
+          "euros",
+          "garantizados",
+          "vencimiento",
+          "500",
+          "destinados",
+          "definitivos"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Traffic statistics & passenger data",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 10,
+        "keywords": [
+          "airways",
+          "vuelos",
+          "iairgroup",
+          "iag",
+          "iagshares",
+          "pasajeros",
+          "aviones",
+          "asientos",
+          "transportados",
+          "incrementó"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "iberdrola",
+    "n_es_total": 1727,
+    "n_untranslated": 347,
+    "threshold": 0.8842,
+    "n_topics": 16,
+    "n_esg_topics": 9,
+    "n_esg_docs": 182,
+    "pct_esg": 52.4,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Grid electrification & EV charging",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 48,
+        "keywords": [
+          "electrificación",
+          "energética",
+          "electricidad",
+          "renovables",
+          "hidroeléctrico",
+          "financiación",
+          "bilbao",
+          "eléctrico",
+          "iberdrola",
+          "europa"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Shareholder meetings & engagement",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 34,
+        "keywords": [
+          "participación",
+          "convoca",
+          "iberdrola",
+          "participar",
+          "accionistas",
+          "reunión",
+          "involucración",
+          "empleados",
+          "celebrará",
+          "empresa"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Offshore wind energy",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 30,
+        "keywords": [
+          "eólica",
+          "offshore",
+          "scottishpower",
+          "renewables",
+          "energía",
+          "eólico",
+          "marino",
+          "costa",
+          "parque",
+          "navantia"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Basque Country economic contribution",
+        "category": "Local",
+        "is_esg": false,
+        "count": 29,
+        "keywords": [
+          "euskadi",
+          "iberdrola",
+          "inversiones",
+          "económico",
+          "energías",
+          "empresas",
+          "bilbao",
+          "europea",
+          "vasco",
+          "ignacio"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Investment & financial results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 28,
+        "keywords": [
+          "inversión",
+          "inversiones",
+          "iberdrola",
+          "eólica",
+          "ebitda",
+          "renovables",
+          "españa",
+          "euros",
+          "eléctricas",
+          "compañía"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Offshore wind (US & Brazil)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 23,
+        "keywords": [
+          "eólica",
+          "neoenergia",
+          "aerogeneradores",
+          "megavatios",
+          "marino",
+          "island",
+          "energía",
+          "wind",
+          "massachusetts",
+          "eólico"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Onshore wind & solar projects",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 20,
+        "keywords": [
+          "eólica",
+          "aerogeneradores",
+          "turbinas",
+          "fotovoltaicas",
+          "energía",
+          "renovables",
+          "eólico",
+          "instalaciones",
+          "españa",
+          "ambiental"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "Baltic offshore wind (Windanker)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 13,
+        "keywords": [
+          "eólica",
+          "aerogeneradores",
+          "baltic",
+          "windanker",
+          "megavatios",
+          "windar",
+          "greenvolt",
+          "electricidad",
+          "eólico",
+          "marino"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "Scholarships & Paralympic athletes",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 13,
+        "keywords": [
+          "becas",
+          "fundación",
+          "excelencia",
+          "iberdrola",
+          "universitarios",
+          "formación",
+          "español",
+          "estudiantes",
+          "empleabilidad",
+          "paralímpico"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "ScottishPower & UK operations",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 13,
+        "keywords": [
+          "scottishpower",
+          "electricity",
+          "energética",
+          "infraestructura",
+          "británica",
+          "eléctrica",
+          "energy",
+          "macquarie",
+          "empresas",
+          "libras"
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "Offshore wind turbines (France)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "eólica",
+          "aerogeneradores",
+          "turbinas",
+          "aerogenerador",
+          "eólico",
+          "windtwin",
+          "marino",
+          "electricidad",
+          "bretaña",
+          "parque"
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "Green bond issuance",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "emisión",
+          "financiación",
+          "iberdrola",
+          "euromercado",
+          "verde",
+          "bonos",
+          "euros",
+          "crédito",
+          "cupón",
+          "europa"
+        ]
+      },
+      {
+        "topic_id": 12,
+        "label": "Climate change & sustainability training",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 11,
+        "keywords": [
+          "sostenibilidad",
+          "sostenibles",
+          "sostenible",
+          "neoenergia",
+          "climático",
+          "capacitación",
+          "2030",
+          "iberdrola",
+          "ingenieros",
+          "jurídicas"
+        ]
+      },
+      {
+        "topic_id": 13,
+        "label": "Museum illumination & cultural heritage",
+        "category": "Local",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "iluminación",
+          "museo",
+          "iluminacion",
+          "catedral",
+          "cospedal",
+          "exposición",
+          "ilumina",
+          "fundación",
+          "castilla",
+          "prado"
+        ]
+      },
+      {
+        "topic_id": 14,
+        "label": "Women's sports sponsorship",
+        "category": "Local",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "deportistas",
+          "fútbol",
+          "competición",
+          "maría",
+          "jugadora",
+          "deportivas",
+          "barcelona",
+          "deporte",
+          "copa",
+          "española"
+        ]
+      },
+      {
+        "topic_id": 15,
+        "label": "Dividend & shareholder returns",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "dividendo",
+          "iberdrola",
+          "distribuirá",
+          "repartirá",
+          "efectivo",
+          "cobrar",
+          "euros",
+          "retribución",
+          "asignación",
+          "gratuita"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "inditex",
+    "n_es_total": 265,
+    "n_untranslated": 53,
+    "threshold": 0.8921,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Annual results & store expansion",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 39,
+        "keywords": [
+          "inditex",
+          "tiendas",
+          "ventas",
+          "mercados",
+          "inversión",
+          "tienda",
+          "crecimiento",
+          "2014",
+          "moda",
+          "colección"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Quarterly sales results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 14,
+        "keywords": [
+          "inditex",
+          "ventas",
+          "tiendas",
+          "trimestre",
+          "negocio",
+          "2023",
+          "bruto",
+          "marcas",
+          "consolidados",
+          "36"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "indra",
+    "n_es_total": 2120,
+    "n_untranslated": 424,
+    "threshold": 0.7094,
+    "n_topics": 6,
+    "n_esg_topics": 2,
+    "n_esg_docs": 55,
+    "pct_esg": 13.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Digital transformation & Minsait services",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 206,
+        "keywords": [
+          "digitalización",
+          "inteligencia",
+          "tecnologías",
+          "empresas",
+          "servicios",
+          "eficiencia",
+          "minsait",
+          "digitales",
+          "digital",
+          "compañía"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Technology partnerships & innovation",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 126,
+        "keywords": [
+          "tecnológico",
+          "tecnológica",
+          "indra",
+          "colaboración",
+          "innovación",
+          "consultoría",
+          "desarrollo",
+          "ingeniería",
+          "multinacional",
+          "universidad"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Solidarity campaigns & COVID donations",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 28,
+        "keywords": [
+          "solidaridad",
+          "voluntarios",
+          "solidario",
+          "donación",
+          "fundación",
+          "indra",
+          "campaña",
+          "participación",
+          "covid",
+          "impacto"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Disability inclusion & accessibility",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 27,
+        "keywords": [
+          "ventures4inclusion",
+          "discapacidad",
+          "accesibles",
+          "inclusión",
+          "voluntarios",
+          "proyectos",
+          "fundación",
+          "iniciativa",
+          "facilitar",
+          "educativa"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Cybersecurity services",
+        "category": "Tech",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "ciberseguridad",
+          "cyber",
+          "cyberhub",
+          "seguridad",
+          "segura",
+          "protección",
+          "cloud",
+          "organizaciones",
+          "servicios",
+          "crisis"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Digital innovation & 5G",
+        "category": "Tech",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "digitalización",
+          "ciberinteligencia",
+          "tecnológica",
+          "ciberseguridad",
+          "digitales",
+          "cybersecurity",
+          "innovation",
+          "inteligencia",
+          "5g",
+          "conectividad"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "logista",
+    "n_es_total": 391,
+    "n_untranslated": 79,
+    "threshold": 0.8905,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Financial results & distribution",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 55,
+        "keywords": [
+          "logista",
+          "beneficio",
+          "aumento",
+          "económicas",
+          "ingresos",
+          "ventas",
+          "trimestre",
+          "distribución",
+          "ebit",
+          "compañía"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "NACEX delivery & solidarity campaigns",
+        "category": "Local",
+        "is_esg": false,
+        "count": 24,
+        "keywords": [
+          "nacex",
+          "fundación",
+          "nuevas",
+          "campaña",
+          "solidarios",
+          "empresa",
+          "donar",
+          "colaboración",
+          "taquillas",
+          "plataforma"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "mapfre",
+    "n_es_total": 2606,
+    "n_untranslated": 522,
+    "threshold": 0.6026,
+    "n_topics": 20,
+    "n_esg_topics": 2,
+    "n_esg_docs": 35,
+    "pct_esg": 6.7,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Esports & tennis sponsorship",
+        "category": "Local",
+        "is_esg": false,
+        "count": 39,
+        "keywords": [
+          "esports",
+          "competición",
+          "torneo",
+          "evento",
+          "tenistas",
+          "torneos",
+          "tenis",
+          "mapfre",
+          "league",
+          "gamepolis"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Auto body shop certification (CESVIMAP)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 38,
+        "keywords": [
+          "certificación",
+          "carrocería",
+          "reparaciones",
+          "reparación",
+          "tq",
+          "concesionario",
+          "vehículos",
+          "mazda",
+          "automoción",
+          "cesvimap"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Vehicle repair training (CESVIMAP)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 33,
+        "keywords": [
+          "cesvimap",
+          "carrocería",
+          "electrificados",
+          "vehículos",
+          "formación",
+          "webinar",
+          "vehículo",
+          "reparación",
+          "automoción",
+          "técnicos"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Road safety & roadside assistance",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 33,
+        "keywords": [
+          "accidentes",
+          "accidente",
+          "tráfico",
+          "movilidad",
+          "vehículos",
+          "asistencias",
+          "carretera",
+          "averías",
+          "aseguradora",
+          "daños"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Cybersecurity & digital risk",
+        "category": "Tech",
+        "is_esg": false,
+        "count": 32,
+        "keywords": [
+          "ciberseguridad",
+          "ciberataques",
+          "ciberacoso",
+          "ciberriesgos",
+          "seguridad",
+          "protección",
+          "riesgos",
+          "internet",
+          "digital",
+          "ataque"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Investment & savings products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 30,
+        "keywords": [
+          "eurostoxx",
+          "seguros",
+          "inversión",
+          "garantía",
+          "rentabilidad",
+          "pias",
+          "mapfre",
+          "garantizado",
+          "seguro",
+          "vencimiento"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Market analysis & COVID impact",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 26,
+        "keywords": [
+          "inversión",
+          "coronavirus",
+          "covid",
+          "bolsa",
+          "mercados",
+          "sectores",
+          "pandemia",
+          "crisis",
+          "impacto",
+          "económico"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "Motorcycle insurance & MotoGP",
+        "category": "Local",
+        "is_esg": false,
+        "count": 24,
+        "keywords": [
+          "motogp",
+          "motociclismo",
+          "moto",
+          "motocicleta",
+          "motos",
+          "motoristas",
+          "parking",
+          "guardacascos",
+          "movilidad",
+          "mapfre"
+        ]
+      },
+      {
+        "topic_id": 8,
+        "label": "Travel insurance & pilgrim coverage",
+        "category": "Local",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "peregrinos",
+          "coberturas",
+          "fiesta",
+          "riesgos",
+          "cofradía",
+          "aseguran",
+          "sevilla",
+          "embarcaciones",
+          "turistas",
+          "viajeros"
+        ]
+      },
+      {
+        "topic_id": 9,
+        "label": "Insurance distribution & Amazon lockers",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "mapfre",
+          "lockers",
+          "seguros",
+          "aseguradora",
+          "amazon",
+          "coberturas",
+          "bricomercio",
+          "servicios",
+          "oficinas",
+          "locker"
+        ]
+      },
+      {
+        "topic_id": 10,
+        "label": "Tax services & customer discounts",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 19,
+        "keywords": [
+          "mapfre",
+          "fiscales",
+          "fiscal",
+          "gratuito",
+          "descuentos",
+          "renta",
+          "coberturas",
+          "aseguradora",
+          "servicios",
+          "gastos"
+        ]
+      },
+      {
+        "topic_id": 11,
+        "label": "Emergency response & philanthropy",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 19,
+        "keywords": [
+          "incendios",
+          "emergencias",
+          "mapfre",
+          "fundación",
+          "competición",
+          "barcelona",
+          "espacios",
+          "hospital",
+          "pruebas",
+          "corazón"
+        ]
+      },
+      {
+        "topic_id": 12,
+        "label": "Climate change & renewable energy",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 16,
+        "keywords": [
+          "renovables",
+          "climático",
+          "co2",
+          "energías",
+          "invernadero",
+          "carbón",
+          "contaminación",
+          "combustibles",
+          "2050",
+          "reducir"
+        ]
+      },
+      {
+        "topic_id": 13,
+        "label": "Art exhibitions (Fundación MAPFRE)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "exposición",
+          "museo",
+          "picasso",
+          "artista",
+          "dibujos",
+          "recoletos",
+          "maestras",
+          "colección",
+          "retrato",
+          "fotógrafos"
+        ]
+      },
+      {
+        "topic_id": 14,
+        "label": "Life & funeral insurance products",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "asegurado",
+          "asegurados",
+          "seguros",
+          "fallecimiento",
+          "familife",
+          "póliza",
+          "asegurar",
+          "servicios",
+          "olvido",
+          "mapfre"
+        ]
+      },
+      {
+        "topic_id": 15,
+        "label": "AI & digital transformation",
+        "category": "Tech",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "inteligencia",
+          "empresas",
+          "empresa",
+          "artificial",
+          "tecnologías",
+          "productividad",
+          "data",
+          "aumenta",
+          "prácticas",
+          "ventajas"
+        ]
+      },
+      {
+        "topic_id": 16,
+        "label": "Pensions & youth savings",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "pensiones",
+          "ahorrar",
+          "jubilación",
+          "jóvenes",
+          "preocupado",
+          "millennials",
+          "joven",
+          "precariedad",
+          "fondos",
+          "edad"
+        ]
+      },
+      {
+        "topic_id": 17,
+        "label": "Digital marketing & CRM",
+        "category": "Tech",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "digitalización",
+          "salesforce",
+          "analítica",
+          "datos",
+          "cloud",
+          "marketing",
+          "transformación",
+          "experiencia",
+          "personalización",
+          "google"
+        ]
+      },
+      {
+        "topic_id": 18,
+        "label": "Innovation & brand trust",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "confianza",
+          "mapfre",
+          "innovación",
+          "vacunación",
+          "oportunidades",
+          "empresas",
+          "futuro",
+          "foroageingnomics",
+          "países",
+          "marca"
+        ]
+      },
+      {
+        "topic_id": 19,
+        "label": "Health insurance & diagnostics",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "radiografías",
+          "asegurados",
+          "clínica",
+          "diagnóstico",
+          "ecografías",
+          "especialidad",
+          "fisioterapia",
+          "hospitalarias",
+          "servicios",
+          "pruebas"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "melia",
+    "n_es_total": 1088,
+    "n_untranslated": 218,
+    "threshold": 0.7967,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Hotel operations & tourism",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 204,
+        "keywords": [
+          "hotelera",
+          "hoteles",
+          "hotels",
+          "resorts",
+          "hotel",
+          "madrid",
+          "habitaciones",
+          "turismo",
+          "mallorca",
+          "servicios"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Golf tournament sponsorship",
+        "category": "Local",
+        "is_esg": false,
+        "count": 14,
+        "keywords": [
+          "torneo",
+          "golf",
+          "clasificatoria",
+          "clasificados",
+          "vencedores",
+          "ganadores",
+          "participantes",
+          "coruña",
+          "celebró",
+          "vencieron"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "merlin",
+    "n_es_total": 183,
+    "n_untranslated": 37,
+    "threshold": 0.8753,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Logistics & office acquisitions",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 22,
+        "keywords": [
+          "logísticas",
+          "adquisición",
+          "merlin",
+          "oficinas",
+          "properties",
+          "mercado",
+          "millones",
+          "negocio",
+          "polígono",
+          "cartera"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Bond issuance & refinancing",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 15,
+        "keywords": [
+          "financiación",
+          "merlin",
+          "refinanciación",
+          "emisión",
+          "bonos",
+          "euromercado",
+          "crédito",
+          "fondos",
+          "vencimientos",
+          "luxemburgo"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "naturgy",
+    "n_es_total": 1082,
+    "n_untranslated": 219,
+    "threshold": 0.6841,
+    "n_topics": 8,
+    "n_esg_topics": 5,
+    "n_esg_docs": 141,
+    "pct_esg": 64.4,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Energy transition & sustainability",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 61,
+        "keywords": [
+          "energías",
+          "renovables",
+          "energética",
+          "energía",
+          "descarbonización",
+          "naturgy",
+          "sostenibilidad",
+          "español",
+          "europa",
+          "cambio"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Foundation & energy research",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 37,
+        "keywords": [
+          "energética",
+          "naturgy",
+          "fundación",
+          "energético",
+          "energía",
+          "renovables",
+          "energy",
+          "sostenibilidad",
+          "proyectos",
+          "empleabilidad"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Electricity fraud & grid operations",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 31,
+        "keywords": [
+          "electricidad",
+          "naturgy",
+          "energía",
+          "eléctrico",
+          "incendios",
+          "eléctrica",
+          "eléctricas",
+          "instalaciones",
+          "emergencias",
+          "bomberos"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Free repairs for teachers & firefighters",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 22,
+        "keywords": [
+          "naturgy",
+          "reparaciones",
+          "profesionales",
+          "cuidamostuenergía",
+          "bomberos",
+          "servicio",
+          "docentes",
+          "gas",
+          "gasodomésticos",
+          "ofrecer"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Customer service & retail offices",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 20,
+        "keywords": [
+          "naturgy",
+          "servicios",
+          "oficinas",
+          "tiendas",
+          "establecimiento",
+          "clientes",
+          "servicio",
+          "garantizar",
+          "cerrados",
+          "seguridad"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Public sector energy contracts",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 12,
+        "keywords": [
+          "naturgy",
+          "electricidad",
+          "energía",
+          "contratos",
+          "consumo",
+          "garantías",
+          "gas",
+          "licitaciones",
+          "oferta",
+          "suministrará"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Biomethane & residential decarbonization",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 11,
+        "keywords": [
+          "naturgy",
+          "biometano",
+          "energética",
+          "descarbonización",
+          "gas",
+          "biomasa",
+          "vecinos",
+          "nedgia",
+          "residencial",
+          "instalación"
+        ]
+      },
+      {
+        "topic_id": 7,
+        "label": "EV charging infrastructure",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "electrificación",
+          "naturgy",
+          "recarga",
+          "infraestructura",
+          "instalaciones",
+          "eléctrica",
+          "transporte",
+          "renault",
+          "suministro",
+          "cecabank"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "red",
+    "n_es_total": 762,
+    "n_untranslated": 153,
+    "threshold": 0.8539,
+    "n_topics": 2,
+    "n_esg_topics": 1,
+    "n_esg_docs": 13,
+    "pct_esg": 8.5,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Electricity system operations",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 122,
+        "keywords": [
+          "eléctrico",
+          "eléctrica",
+          "energética",
+          "energía",
+          "cookieconsent",
+          "proveedor",
+          "transporte",
+          "transición",
+          "detalles",
+          "sobre"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Renewable energy generation statistics",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 13,
+        "keywords": [
+          "eólica",
+          "fotovoltaica",
+          "electricidad",
+          "energía",
+          "renovables",
+          "solar",
+          "española",
+          "viento",
+          "españa",
+          "generación"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "repsol",
+    "n_es_total": 883,
+    "n_untranslated": 177,
+    "threshold": 0.726,
+    "n_topics": 2,
+    "n_esg_topics": 1,
+    "n_esg_docs": 12,
+    "pct_esg": 6.8,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Energy projects & foundation activities",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 165,
+        "keywords": [
+          "repsol",
+          "petróleo",
+          "energética",
+          "proyectos",
+          "fundación",
+          "colaboración",
+          "empresas",
+          "compañías",
+          "españa",
+          "emisiones"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Floating offshore wind (WindFloat)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 12,
+        "keywords": [
+          "windfloat",
+          "turbina",
+          "aerogenerador",
+          "puerto",
+          "windplus",
+          "marinas",
+          "plataformas",
+          "flotante",
+          "engie",
+          "atlantic"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "rovi",
+    "n_es_total": 415,
+    "n_untranslated": 83,
+    "threshold": 0.7923,
+    "n_topics": 3,
+    "n_esg_topics": 1,
+    "n_esg_docs": 42,
+    "pct_esg": 50.6,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "CSR & industrial efficiency",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 42,
+        "keywords": [
+          "rovi",
+          "energética",
+          "eficiencia",
+          "farmacéuticos",
+          "industrial",
+          "proyectos",
+          "laboratorios",
+          "innovación",
+          "empresa",
+          "planta"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Annual financial results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 19,
+        "keywords": [
+          "ejercicio",
+          "2014",
+          "resultados",
+          "prensa",
+          "2013",
+          "2016",
+          "publicada",
+          "2012",
+          "presentación",
+          "datos"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Quarterly financial results",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 18,
+        "keywords": [
+          "semestre",
+          "prensa",
+          "trimestre",
+          "primer",
+          "publicada",
+          "resultados",
+          "presentación",
+          "2016",
+          "2014",
+          "2011"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "sacyr",
+    "n_es_total": 597,
+    "n_untranslated": 120,
+    "threshold": 0.8833,
+    "n_topics": 4,
+    "n_esg_topics": 2,
+    "n_esg_docs": 33,
+    "pct_esg": 27.5,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Financial results & concessions",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 70,
+        "keywords": [
+          "sacyr",
+          "ebitda",
+          "rentabilidad",
+          "ingresos",
+          "2022",
+          "cifra",
+          "inversión",
+          "negocios",
+          "cartera",
+          "concesiones"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Sustainability & circular economy",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 23,
+        "keywords": [
+          "sostenibilidad",
+          "reciclaje",
+          "ambiental",
+          "medioambiente",
+          "conservación",
+          "sostenible",
+          "residuos",
+          "co2",
+          "envases",
+          "reducir"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Handball sponsorship (Liga ASOBAL)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "sacyr",
+          "asobal",
+          "patrocinio",
+          "sociedad",
+          "sponsor",
+          "corporativa",
+          "renueva",
+          "equipos",
+          "sorteo",
+          "federación"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Water treatment & desalination",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 10,
+        "keywords": [
+          "desaladora",
+          "instalaciones",
+          "depuradoras",
+          "aguas",
+          "mantenimiento",
+          "sacyr",
+          "sistema",
+          "sotogrande",
+          "eficiencia",
+          "ingeniería"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "solaria",
+    "n_es_total": 254,
+    "n_untranslated": 51,
+    "threshold": 0.8634,
+    "n_topics": 2,
+    "n_esg_topics": 0,
+    "n_esg_docs": 0,
+    "pct_esg": 0.0,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Solar energy projects & results",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 30,
+        "keywords": [
+          "solaria",
+          "fotovoltaica",
+          "fotovoltaicas",
+          "fotovoltaicos",
+          "solar",
+          "energías",
+          "inversión",
+          "proyectos",
+          "renovables",
+          "rentabilidad"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Earnings call announcements",
+        "category": "Financial",
+        "is_esg": false,
+        "count": 21,
+        "keywords": [
+          "convocatoria",
+          "presentación",
+          "conferencia",
+          "publicará",
+          "solaria",
+          "2024",
+          "audioconferencia",
+          "2022",
+          "convoca",
+          "celebrará"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "telefonica",
+    "n_es_total": 2222,
+    "n_untranslated": 445,
+    "threshold": 0.6248,
+    "n_topics": 7,
+    "n_esg_topics": 1,
+    "n_esg_docs": 22,
+    "pct_esg": 4.9,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Digital services & museum sponsorship (Prado)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 214,
+        "keywords": [
+          "prado",
+          "móvil",
+          "usuarios",
+          "tecnología",
+          "museo",
+          "servicios",
+          "madrid",
+          "digital",
+          "proyecto",
+          "telefónica"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Sports competitions & events",
+        "category": "Local",
+        "is_esg": false,
+        "count": 83,
+        "keywords": [
+          "competición",
+          "torneo",
+          "maratón",
+          "partidos",
+          "baloncesto",
+          "evento",
+          "concurso",
+          "deporte",
+          "encuentros",
+          "mvp"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "Social hackathons (HackForGood)",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 22,
+        "keywords": [
+          "hackathon",
+          "hackforgood",
+          "proyectos",
+          "hackers",
+          "aplicaciones",
+          "fundación",
+          "desarrollar",
+          "propuestos",
+          "vigo",
+          "premios"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "TV series & entertainment (Movistar+)",
+        "category": "Corporate",
+        "is_esg": false,
+        "count": 16,
+        "keywords": [
+          "serie",
+          "series",
+          "tv",
+          "estreno",
+          "metaverso",
+          "braquo",
+          "movistar",
+          "protagonistas",
+          "miniserie",
+          "2015"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "Smartphone offers & 5G devices",
+        "category": "Product",
+        "is_esg": false,
+        "count": 14,
+        "keywords": [
+          "móviles",
+          "móvil",
+          "smartphones",
+          "smartphone",
+          "oppo",
+          "samsung",
+          "xiaomi",
+          "descuentos",
+          "dispositivos",
+          "oferta"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "Tuenti brand & music festivals",
+        "category": "Local",
+        "is_esg": false,
+        "count": 13,
+        "keywords": [
+          "tuenti",
+          "tarifas",
+          "festival",
+          "festivales",
+          "tarifa",
+          "móvil",
+          "fest",
+          "gigas",
+          "premio",
+          "campaña"
+        ]
+      },
+      {
+        "topic_id": 6,
+        "label": "Olympic athlete sponsorship (Pódium)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 13,
+        "keywords": [
+          "olímpicos",
+          "olímpico",
+          "pódium",
+          "deportistas",
+          "deportista",
+          "atletas",
+          "deporte",
+          "medallas",
+          "jóvenes",
+          "programa"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "unicajabanco",
+    "n_es_total": 1442,
+    "n_untranslated": 289,
+    "threshold": 0.8146,
+    "n_topics": 4,
+    "n_esg_topics": 1,
+    "n_esg_docs": 15,
+    "pct_esg": 5.2,
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "Local business events & sponsorships",
+        "category": "Local",
+        "is_esg": false,
+        "count": 171,
+        "keywords": [
+          "encuentro",
+          "evento",
+          "patrocinio",
+          "comercio",
+          "empresas",
+          "empresa",
+          "asociación",
+          "empresarial",
+          "premios",
+          "financiación"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "Sports sponsorship (marathons, athletics)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 55,
+        "keywords": [
+          "maratón",
+          "deporte",
+          "evento",
+          "patrocinio",
+          "atletismo",
+          "participantes",
+          "deportivo",
+          "corredores",
+          "concurso",
+          "marcha"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "SME internationalization & financial education",
+        "category": "ESG",
+        "is_esg": true,
+        "count": 15,
+        "keywords": [
+          "internacionalización",
+          "feda",
+          "infeda",
+          "digitalización",
+          "empresarios",
+          "enterprise",
+          "internisa",
+          "formación",
+          "programa",
+          "edufinet"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "Basketball sponsorship (Unicaja)",
+        "category": "Local",
+        "is_esg": false,
+        "count": 11,
+        "keywords": [
+          "campeón",
+          "supercopa",
+          "eurocup",
+          "copa",
+          "clubes",
+          "equipo",
+          "torneo",
+          "deportiva",
+          "basketball",
+          "málaga"
+        ]
+      }
+    ]
+  }
+]
