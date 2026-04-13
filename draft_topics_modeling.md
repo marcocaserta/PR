@@ -128,7 +128,7 @@ I analyzed 6 companies (the ones with the highest ESG contribution) across 2015â
 > while banks (bottom row) have a persistent social inclusion gap. 
 > The red % ESG lines make the trend visible.
 > 
-> ![Temporal Analysis](/Users/mcaserta/Downloads/PR/results/topics/fig_temporal_esg.png)
+> ![Temporal Analysis](fig_temporal_esg.png)
 
 ***
 ## Output Files Produced
