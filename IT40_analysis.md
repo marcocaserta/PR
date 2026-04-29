@@ -193,9 +193,13 @@ When the same event is covered in both languages — particularly financial resu
 
 The similarity model identifies these as different documents, inflating the apparent "untranslated" pool.
 
-### 3. Sustainability content is not systematically undertranslated
+### 3. Regulatory framing inflates the "untranslated" pool
 
-Here we find something different compared with the IBEX-35 Spanish companies. Italian FTSE MIB companies do not show a systematic pattern of leaving ESG content untranslated. ENI translates over 90% of its sustainability content. Leonardo translates 100% of its sustainability communications. SNAM translates its environmental campaigns.
+A significant portion of Italian-only content (15.8% of untranslated topics) consists of CONSOB-style regulatory filings: shareholder assembly notices, statutory amendments, board appointments, mandatory disclosures. The same information exists in English but follows international investor relations conventions. The similarity model correctly identifies these as structurally different documents, but they are not genuinely "untranslated" — they are the same events packaged for different regulatory audiences. This is particularly visible in BPER (6 governance topics), Saipem, Enel, and Generali.
+
+### 4. Sustainability content is not systematically undertranslated
+
+Here we find something different compared with the IBEX-35 Spanish companies. Italian FTSE MIB companies do not show a systematic pattern of leaving ESG content untranslated. ESG accounts for only 9.1% of untranslated Italian content, compared with 23.6% in Spain. ENI translates over 90% of its sustainability content. Leonardo translates 100% of its sustainability communications. SNAM translates its environmental campaigns.
 
 ### 5. The key question
 
@@ -205,6 +209,58 @@ Here, perhaps, we can reframe the question: Rather than asking "what topics do c
 - **Utilities**: language = audience (community vs investor)
 - **Manufacturing**: language = market (domestic vs export)
 - **Conglomerates**: language = organizational unit (subsidiary vs parent)
+
+## Topic Labeling
+
+Topics were manually labeled with different category schemes for each direction, reflecting the distinct communication strategies:
+
+### Untranslated Italian PRs (IT → not in EN): 155 topics, 4,619 docs
+
+What companies say to domestic audiences but don't translate:
+
+| Category                    | Docs  |     % |
+| --------------------------- | ----: | ----: |
+| Industry / Operations       | 1,642 | 35.5% |
+| Financial / Capital Markets |   829 | 17.9% |
+| Regulatory / Governance     |   730 | 15.8% |
+| Retail / Domestic           |   506 | 11.0% |
+| ESG / Sustainability        |   421 |  9.1% |
+| Local Community             |   283 |  6.1% |
+| Digital / Innovation        |   208 |  4.5% |
+
+### Untranslated English PRs (EN → not in IT): 162 topics, 4,098 docs
+
+What companies say to international audiences but don't produce in Italian:
+
+| Category                    | Docs  |     % |
+| --------------------------- | ----: | ----: |
+| International Markets       | 1,604 | 39.1% |
+| Financial / Capital Markets | 1,068 | 26.1% |
+| Regulatory / Governance     |   832 | 20.3% |
+| ESG / Sustainability        |   389 |  9.5% |
+| Local Community             |   112 |  2.7% |
+| Digital / Innovation        |    49 |  1.2% |
+| Research / Publications     |    44 |  1.1% |
+
+### Key observations
+
+The asymmetry confirms the audience segmentation thesis:
+
+- **Italian-only** content is dominated by domestic operations (35.5%) and retail/domestic content (11.0%) — Pirelli Italian rally, UniCredit SME lending, A2A Brescia utility services, Poste Italiane stamps.
+- **English-only** content is dominated by international markets (39.1%) — Pirelli F1/WRC for global motorsport media, Leonardo helicopter exports, ENI international exploration, Ferrari product launches.
+- **ESG is ~9% in both directions** — confirming it is not systematically undertranslated in either language, unlike Spain where 23.6% of Spanish-only content was ESG.
+- **Regulatory/Governance is 16-20% in both directions** — the CONSOB framing effect works both ways: Italian regulatory filings look different from English investor communications, and vice versa.
+- **Retail/Domestic exists only in Italian (11%)**, while **International Markets exists only in English (39%)** — these are the mirror categories that make the audience segmentation visible.
+
+### Comparison with Spanish study
+
+| | Spain (IBEX-35) | Italy (FTSE MIB) |
+|---|---|---|
+| **Dominant category (local lang)** | Local events (30%) + Corporate (30%) | Industry/Operations (36%) + Regulatory (16%) |
+| **Dominant category (English)** | Corporate (48%) + Financial (22%) | International Markets (39%) + Financial (26%) |
+| **ESG share (local lang only)** | 23.6% | 9.1% |
+| **ESG share (English only)** | 14.6% | 9.5% |
+| **Key driver** | ESG communication gap | Audience segmentation + regulatory framing |
 
 ## Output Files
 
@@ -217,15 +273,17 @@ Here, perhaps, we can reframe the question: Rather than asking "what topics do c
 | `results/IT40/similarity_mpnet.json`              | 7.2 MB | Per-document best-match similarity scores and company-level summary              |
 | `results/IT40/topics/topics_untranslated_it.json` | 349 KB | BERTopic results: 155 topics from Italian PRs not matched in English             |
 | `results/IT40/topics/topics_untranslated_en.json` | 362 KB | BERTopic results: 162 topics from English PRs not matched in Italian             |
+| `results/IT40/topics/topics_labeled_it.json`      |        | Labeled IT topics with domestic-facing categories and ESG classification          |
+| `results/IT40/topics/topics_labeled_en.json`      |        | Labeled EN topics with international-facing categories and ESG classification     |
 
 ### Excel Reports
 
-| File                                               | Description                                                                                      |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| `results/IT40/corpus_summary.xlsx`                 | Corpus statistics by company (EN/IT counts, words, exclusion flags)                              |
-| `results/IT40/analysis_summary.xlsx`               | Three sheets: similarity scores, IT topic keywords, EN topic keywords                            |
-| `results/IT40/topics/topics_all_companies_it.xlsx` | Italian topics for external review: Summary, Topics, Representative PRs (155 topics, 4,619 docs) |
-| `results/IT40/topics/topics_all_companies_en.xlsx` | English topics for external review: Summary, Topics, Representative PRs (162 topics, 4,098 docs) |
+| File                                                        | Description                                                                                      |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `results/IT40/corpus_summary.xlsx`                          | Corpus statistics by company (EN/IT counts, words, exclusion flags)                              |
+| `results/IT40/analysis_summary.xlsx`                        | Three sheets: similarity scores, IT topic keywords, EN topic keywords                            |
+| `results/IT40/topics/topics_all_companies_it_labeled.xlsx`  | Italian topics (labeled): 7 domestic-facing categories (155 topics, 4,619 docs)                   |
+| `results/IT40/topics/topics_all_companies_en_labeled.xlsx`  | English topics (labeled): 7 international-facing categories (162 topics, 4,098 docs)              |
 
 ### Analysis
 
