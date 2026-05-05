@@ -13,59 +13,6 @@
 | Period          | ~2012–2026                            |
 | Embedding model | paraphrase-multilingual-mpnet-base-v2 |
 
-### Corpus by Company
-
-| Company              |    EN |    DE | Total |  Words |  W/PR |
-| -------------------- | ----: | ----: | ----: | -----: | ----: |
-| adidas               |   213 |   183 |   396 |   307K |   775 |
-| allianz              |   450 |   491 |   941 | 1,276K | 1,355 |
-| basf                 | 2,112 | 2,041 | 4,153 | 2,940K |   707 |
-| bayer                |   466 |   462 |   928 | 1,589K | 1,711 |
-| beiersdorf           |   207 |    88 |   295 |   123K |   417 |
-| bmw                  | 1,996 | 1,942 | 3,938 | 3,854K |   978 |
-| brenntag             |   315 |   314 |   629 |   274K |   435 |
-| commerzbank          |   355 |   481 |   836 |   898K | 1,073 |
-| continental          | 2,008 | 2,256 | 4,264 | 2,377K |   557 |
-| covestro             |   430 |   567 |   997 |   752K |   754 |
-| daimler_truck        | 1,410 | 1,622 | 3,032 | 2,231K |   735 |
-| deliveryhero         |   144 |   144 |   288 |   368K | 1,279 |
-| deutsche_bank        | 1,912 | 1,533 | 3,445 | 2,074K |   602 |
-| deutsche_borse       | 3,273 | 1,716 | 4,989 | 1,330K |   266 |
-| deutsche_post        |   801 | 1,116 | 1,917 | 1,173K |   611 |
-| deutsche_wohnen      |   240 |   172 |   412 |   351K |   851 |
-| fresenius_pref       |   824 |   921 | 1,745 | 2,351K | 1,347 |
-| freseniusmedicalcare |   101 |    93 |   194 |   172K |   889 |
-| gea                  |   418 |   447 |   865 |   644K |   744 |
-| hannover             |   142 |   143 |   285 |   308K | 1,082 |
-| heidelbergmaterials  |   320 |   320 |   640 |   490K |   766 |
-| hello_fresh          |   110 |   117 |   227 |   232K | 1,022 |
-| henkel               |   608 |   760 | 1,368 |   763K |   557 |
-| infineon             |   299 |   247 |   546 |   299K |   547 |
-| kplus                |   201 |   219 |   420 |   207K |   491 |
-| lanxess              |   463 |   526 |   989 |   572K |   578 |
-| lufthansa            |   705 |   776 | 1,481 |   719K |   485 |
-| mercedes             | 1,320 | 1,514 | 2,834 | 2,509K |   885 |
-| mtu                  |   564 |   774 | 1,338 |   766K |   573 |
-| munichre             |   136 |   115 |   251 |   264K | 1,050 |
-| porsche              | 3,887 | 2,275 | 6,162 | 5,749K |   933 |
-| prosiebensat1        |   104 |   103 |   207 |   126K |   608 |
-| puma                 |   119 |   107 |   226 |   148K |   652 |
-| rheinmetall          |   893 |   862 | 1,755 |   905K |   515 |
-| rwe                  |   841 |     0 |   841 |   416K |   494 |
-| sap                  |   629 |   642 | 1,271 |   913K |   718 |
-| sartorius            |   364 |   241 |   605 |   331K |   546 |
-| scout24              |   108 |   108 |   216 |   244K | 1,130 |
-| siemens              | 2,070 | 2,072 | 4,142 | 3,272K |   789 |
-| siemens_energy       |   331 |   219 |   550 |   246K |   447 |
-| siemens_health       |   371 |   356 |   727 |   386K |   531 |
-| symrise              |   497 |   497 |   994 |   550K |   553 |
-| telekom              | 1,308 | 1,961 | 3,269 | 2,153K |   659 |
-| thyssen              |   229 |   229 |   458 |   355K |   776 |
-| volkswagen           |   659 |   512 | 1,171 |   861K |   735 |
-| zalando              |   872 |   661 | 1,533 | 1,088K |   710 |
-
-Note: RWE is EN-only (German site blocked during scraping). Infineon W/PR reflects post-cleaning values (navigation boilerplate removed).
-
 ## Cross-Lingual Similarity
 
 Average similarity: **EN→DE 0.880, DE→EN 0.882**.
@@ -86,7 +33,7 @@ Average similarity: **EN→DE 0.880, DE→EN 0.882**.
 | fresenius_pref       | 0.918 | 0.898 |    73.8 |    65.5 |
 | prosiebensat1        | 0.917 | 0.909 |    80.8 |    81.6 |
 | telekom              | 0.916 | 0.813 |    75.2 |    38.9 |
-| lanxess             | 0.913 | 0.884 |    75.4 |    65.8 |
+| lanxess              | 0.913 | 0.884 |    75.4 |    65.8 |
 | covestro             | 0.912 | 0.846 |    73.0 |    57.0 |
 | commerzbank          | 0.906 | 0.840 |    71.1 |    52.5 |
 | symrise              | 0.905 | 0.901 |    65.0 |    64.2 |
@@ -120,132 +67,148 @@ Average similarity: **EN→DE 0.880, DE→EN 0.882**.
 
 Companies with highest symmetry (both >0.9): ThyssenKrupp, Mercedes, Lufthansa, Scout24, HeidelbergMaterials.
 
-Companies with largest asymmetry: Bayer (EN→DE 0.682 vs DE→EN 0.922), Telekom (0.916 vs 0.813), Deutsche Börse (0.799 vs 0.895), Deutsche Post (0.932 vs 0.859).
+Companies with largest asymmetry: Bayer (EN→DE 0.682 vs DE→EN 0.922), Telekom (0.916 vs 0.813), Deutsche Börse (0.799 vs 0.895).
 
 ## Topic Modeling
 
-BERTopic identified **84 topics** in untranslated German PRs (5,028 docs) and **32 topics** in untranslated English PRs (5,326 docs). Both directions have a large "catch-all" cluster (Topic 0) where BERTopic placed documents that don't fit neatly into any theme.
+BERTopic run **per company** on untranslated PRs (bottom 20th percentile of similarity). Produced **95 topics** across 39 companies for the DE direction, and **90 topics** across 40 companies for the EN direction.
 
-### German PRs Not Matched in English (excluding catch-all: 3,427 docs, 83 topics)
+### German PRs Not Matched in English (95 topics, 3,869 docs across 39 companies)
 
-| Category                          | Docs  |     % |
-| --------------------------------- | ----: | ----: |
-| Local Operations & Community      | 1,014 | 29.6% |
-| Sports & Motorsport               |   566 | 16.5% |
-| Industry & Technology             |   555 | 16.2% |
-| Corporate & Financial             |   451 | 13.2% |
-| Consumer Products & Retail        |   198 |  5.8% |
-| Media & Entertainment             |   176 |  5.1% |
-| ESG (all sub-categories)          |    94 |  2.7% |
-| Legal / Boilerplate               |    89 |  2.6% |
-| Other                             |   284 |  8.3% |
+| Category                     | Topics | Docs  |     % |
+| ---------------------------- | -----: | ----: | ----: |
+| Industry / Operations        |     31 | 1,547 | 40.0% |
+| Financial / Capital Markets  |     17 |   530 | 13.7% |
+| Local Operations / Training  |     10 |   459 | 11.9% |
+| Regulatory / Governance      |     10 |   380 |  9.8% |
+| ESG / Sustainability         |      9 |   253 |  6.5% |
+| Local Community              |      7 |   199 |  5.1% |
+| Digital / Innovation         |      4 |   196 |  5.1% |
+| Consumer Products            |      3 |   115 |  3.0% |
+| Media / Entertainment        |      2 |    98 |  2.5% |
+| Legal / Boilerplate          |      2 |    92 |  2.4% |
 
-**Largest topics (German-only):**
+**Largest German-only topics:**
 
-| Topic | Docs | Content |
-| ----- | ---: | ------- |
-| Local Operations / Training | 261 | Apprenticeships, vocational training at company sites (MTU Munich, Henkel Düsseldorf, Fresenius Bad Homburg, LANXESS, GEA, Sartorius Göttingen) |
-| Sports Sponsoring / Media | 233 | MagentaSport, football EM campaigns, Commerzbank DFB |
-| Industry / Operations | 217 | Henkel adhesives, BASF chemicals, Continental materials, Lufthansa fleet |
-| Media / Entertainment | 176 | Telekom MagentaTV series, streaming, MagentaMusik festivals |
-| Consumer Products | 171 | Schwarzkopf hair care, Persil laundry, WC Frisch, Henkel household |
-| Technology / Digital | 153 | SAP Cloud/S4HANA in German, enterprise software for German market |
-| Motorsport / Brand Heritage | 129 | Porsche 911 stories, classic cars, museum events |
-| Local Community / Culture | 124 | Deutsche Post stamps, Deutsche Bank art, MTU museum, orchestras |
-| Financial Products / Retail | 112 | ETFs, ComStage, retail investor products (Deutsche Börse, Commerzbank) |
-| Motorsport / Racing | 106 | Porsche GT3/Formula E racing, Continental tyres in motorsport |
+| Company | Docs | Content |
+| ------- | ---: | ------- |
+| Siemens | 358 | Industrial automation products & digital solutions (German-language product PRs) |
+| Daimler Truck | 251 | Bus & truck operations, site infrastructure, local events |
+| Porsche | 378 | Porsche SE investments, financial results & governance |
+| MTU | 137 | Engine programs, leadership appointments & apprentice awards |
+| Telekom | 138 | Fiber broadband rollout & regional infrastructure |
+| Henkel | 115 | Consumer products: hair care, body care, laundry (Schwarzkopf, Fa, Perwoll) |
+| SAP | 45 | German enterprise customer implementations & Industry 4.0 |
 
-### English PRs Not Matched in German (excluding catch-all: 1,744 docs, 31 topics)
+### English PRs Not Matched in German (90 topics, 3,737 docs across 40 companies)
 
-| Category                          | Docs  |     % |
-| --------------------------------- | ----: | ----: |
-| Regulatory / Governance           |   862 | 49.4% |
-| Pharma / Clinical Trials          |   237 | 13.6% |
-| Technology                        |   189 | 10.8% |
-| Industry / Operations             |   121 |  6.9% |
-| Financial                         |   103 |  5.9% |
-| ESG                               |    64 |  3.7% |
-| Legal / Boilerplate               |    67 |  3.8% |
-| Other                             |   101 |  5.8% |
+| Category                     | Topics | Docs  |     % |
+| ---------------------------- | -----: | ----: | ----: |
+| Financial / Capital Markets  |     36 | 1,380 | 36.9% |
+| Industry / Operations        |     24 | 1,098 | 29.4% |
+| ESG / Sustainability         |     10 |   432 | 11.6% |
+| International Markets        |      9 |   395 | 10.6% |
+| Pharma / Healthcare          |      3 |   188 |  5.0% |
+| Technology / Digital         |      3 |   131 |  3.5% |
+| Digital / Innovation         |      2 |    52 |  1.4% |
+| Legal / Boilerplate          |      1 |    15 |  0.4% |
+| Media / Entertainment        |      1 |    16 |  0.4% |
+| Regulatory / Governance      |      1 |    30 |  0.8% |
 
-**Largest topics (English-only):**
+**Largest English-only topics:**
 
-| Topic | Docs | Content |
-| ----- | ---: | ------- |
-| Regulatory / Governance | 862 | Deutsche Börse governance pages, board announcements, compliance disclosures |
-| Pharma / Clinical Trials | 237 | Bayer oncology (darolutamide, larotrectinib), cardiology (rivaroxaban, vericiguat), ophthalmology (aflibercept) |
-| Technology / Cloud | 171 | SAP cloud solutions, enterprise software for international markets |
-| Industry / Operations | 73 | BASF cosmetics/chemicals, international product launches |
-| Financial / Investor Events | 53 | Deutsche Bank conferences, SAP analyst calls |
+| Company | Docs | Content |
+| ------- | ---: | ------- |
+| Siemens | 332 | Industrial automation & digitalization solutions (international product PRs) |
+| BMW | 278 | Vehicle specifications, motorsport & electric mobility |
+| Telekom | 262 | International telecom operations & 5G rollout |
+| Daimler Truck | 237 | Electric truck deliveries & fleet electrification |
+| Bayer | 188 | Oncology, cardiology & ophthalmology clinical trials |
+| Deutsche Bank | 218 | Investment banking conferences & diversity programs |
+| Rheinmetall | 150 | International defense contracts & system deliveries |
 
 ## Key Findings
 
 ### 1. Germany does NOT show a systematic ESG communication gap
 
-Unlike Spain (where 23.6% of Spanish-only content was ESG), German companies show only **2.7% ESG** in their untranslated German content. The dominant untranslated German content is:
+Unlike Spain (where 23.6% of Spanish-only content was ESG), German companies show only **6.5% ESG** in their untranslated German content. The dominant untranslated German content is:
 
-- **Local operations** (apprenticeships, site news, workforce): 30%
-- **Sports and motorsport** (Porsche racing, Telekom sports streaming, sponsoring): 17%
-- **Industry and technology** (German-language product/operations content): 16%
+- **Industry/Operations** (40%): German-language product press releases, technical specifications, site operations
+- **Financial** (14%): Quarterly results published in German for domestic investors
+- **Local operations/training** (12%): Apprenticeships, vocational training, site events
 
-German companies do not systematically fail to translate their sustainability communications. ESG content appears to be translated at roughly the same rate as other content.
+ESG content that stays in German is limited to specific cases: Commerzbank's environmental internship in national parks, Bayer's sustainable agriculture, K+S environmental reclamation, and a few diversity initiatives.
 
-### 2. The language split maps to audience and content type
+### 2. English-only content has MORE ESG than German-only
+
+**11.6% of English-only content is ESG** — nearly double the German-only rate. This includes:
+- BMW electric mobility & sustainability
+- Covestro circular economy
+- HeidelbergMaterials carbon capture & net-zero cement
+- ThyssenKrupp green steel & hydrogen
+- Zalando supply chain sustainability
+- Deutsche Bank gender equality programs
+
+This suggests German companies communicate ESG **primarily in English** for international ESG rating agencies and investors, rather than in German for domestic audiences.
+
+### 3. The language split maps to content type and audience
 
 | | German-only content | English-only content |
 |---|---|---|
-| **Dominant theme** | Local ops (30%) + Sports (17%) | Regulatory (49%) + Pharma (14%) |
-| **ESG share** | 2.7% | 3.7% |
-| **Target audience** | Domestic employees, consumers, local communities | International investors, regulators, clinical community |
+| **Dominant theme** | Industry/Ops (40%) + Financial (14%) | Financial (37%) + Industry (29%) |
+| **ESG share** | 6.5% | 11.6% |
+| **Unique content** | Consumer products, local training, media/entertainment | Pharma trials, international markets, ESG |
+| **Target audience** | Domestic customers, employees, local communities | International investors, regulators, clinical community |
 
-### 3. Three distinct communication patterns
+### 4. Three distinct communication patterns
 
-**Pattern A: Near-perfect translation** (ThyssenKrupp, Mercedes, Lufthansa, HeidelbergMaterials)
+**Pattern A: Near-perfect translation** (ThyssenKrupp, Mercedes, Lufthansa, HeidelbergMaterials, Scout24)
 - Industrial companies with regulatory obligations to publish bilingually
 - Similarity >0.93 in both directions
-- Very little untranslated content in either language
 
-**Pattern B: German-domestic surplus** (Telekom, Deutsche Post, Henkel, Commerzbank)
+**Pattern B: German-domestic surplus** (Telekom, Deutsche Post, Henkel, Commerzbank, Covestro)
 - Companies with large domestic consumer/retail operations
 - German-only content: local services, consumer products, sports sponsoring, entertainment
-- EN→DE similarity high (>0.9), DE→EN lower (0.7-0.86)
+- EN→DE high (>0.9), DE→EN lower (0.7–0.86)
 
-**Pattern C: English-international surplus** (Bayer, SAP, Deutsche Börse, Beiersdorf)
+**Pattern C: English-international surplus** (Bayer, SAP, Deutsche Börse, Beiersdorf, Deutsche Bank)
 - Companies with global operations publishing primarily in English
-- English-only content: pharma trials, cloud technology, regulatory filings
-- DE→EN similarity high (>0.87), EN→DE lower (0.68-0.80)
+- English-only content: pharma trials, cloud technology, regulatory filings, ESG reporting
+- DE→EN high (>0.87), EN→DE lower (0.68–0.80)
 
-### 4. Comparison with Spain and Italy
+### 5. Comparison with Spain and Italy
 
 | | Spain (IBEX-35) | Italy (FTSE MIB) | **Germany (DAX)** |
 |---|---|---|---|
-| ESG in local-only content | **23.6%** | 9.1% | **2.7%** |
-| ESG in English-only content | 14.6% | 9.5% | 3.7% |
-| Main driver of gap | ESG communication gap | Audience segmentation | **Local operations + domestic media** |
-| Dominant local-only | Local events (30%) + ESG (24%) | Industry/Ops (36%) | Local ops (30%) + Sports (17%) |
-| Dominant English-only | Corporate (48%) | International Markets (39%) | Regulatory (49%) + Pharma (14%) |
+| ESG in local-only content | **23.6%** | 9.1% | **6.5%** |
+| ESG in English-only content | 14.6% | 9.5% | **11.6%** |
+| Main driver of gap | ESG communication gap | Audience segmentation | **Content type segmentation** |
+| Dominant local-only | Local events (30%) + ESG (24%) | Industry/Ops (36%) | Industry/Ops (40%) + Financial (14%) |
+| Dominant English-only | Corporate (48%) | International Markets (39%) | Financial (37%) + Industry (29%) |
 | Average similarity | EN→ES 0.889 / ES→EN 0.852 | EN→IT 0.864 / IT→EN 0.847 | EN→DE 0.880 / DE→EN 0.882 |
 
-### 5. The key question reframed
+### 6. The key insight
 
 The three markets reveal three different communication strategies:
 
-- **Spain**: Companies fail to translate ESG content → missed opportunity for international ESG reputation
-- **Italy**: Companies segment by business model (retail vs institutional, domestic vs export)
-- **Germany**: Companies segment by **content type** — operational/local content stays in German; regulatory/scientific content goes to English. ESG is translated at the same rate as everything else.
+- **Spain**: Companies fail to translate ESG content → missed opportunity for international ESG reputation. The gap is driven by local sustainability initiatives (renewable energy, social inclusion) that stay in Spanish.
+- **Italy**: Companies segment by business model — retail vs institutional, domestic vs export. The gap reflects organizational structure.
+- **Germany**: Companies segment by **content type**. Technical product information and local operations stay in German; financial reporting and ESG communications go to English. German companies appear to treat ESG as an **investor-facing** topic rather than a domestic one — the opposite of Spain.
 
-This suggests that the ESG communication gap is **not universal** but rather a feature of specific markets. German companies, operating under stricter EU disclosure requirements (CSRD, EU Taxonomy) and with a tradition of integrated reporting, appear to translate their sustainability communications more systematically than their Spanish counterparts.
+This suggests that the ESG communication gap is not universal but market-specific. German companies, operating under EU disclosure requirements (CSRD, EU Taxonomy) and with strong institutional investor pressure, direct their sustainability communications toward international audiences. Spanish companies, by contrast, generate ESG content for local stakeholders (municipalities, regulators, communities) but fail to translate it internationally.
 
 ## Output Files
 
 | File | Description |
 | ---- | ----------- |
-| `results/DAX/corpus.json` | Unified corpus: 68,527 documents with text, metadata, company, language (322 MB) |
+| `results/DAX/corpus.json` | Unified corpus: 68,527 documents (322 MB) |
 | `results/DAX/embeddings_mpnet.npz` | Document embeddings (68,527 × 768) |
 | `results/DAX/similarity_mpnet.json` | Per-company cross-lingual similarity scores |
-| `results/DAX/topics/topics_untranslated_de.json` | BERTopic results: 84 topics from German PRs not matched in English |
-| `results/DAX/topics/topics_untranslated_en.json` | BERTopic results: 32 topics from English PRs not matched in German |
+| `results/DAX/corpus_summary.xlsx` | Corpus statistics by company |
+| `results/DAX/analysis_summary.xlsx` | Three sheets: similarity, DE topics, EN topics |
+| `results/DAX/topics/topics_untranslated_de.json` | Per-company BERTopic results: 95 topics (DE not in EN) |
+| `results/DAX/topics/topics_untranslated_en.json` | Per-company BERTopic results: 90 topics (EN not in DE) |
 | `results/DAX/topics/topics_labeled_de.json` | Labeled DE topics with categories |
 | `results/DAX/topics/topics_labeled_en.json` | Labeled EN topics with categories |
-| `results/DAX/topics/topics_all_companies_de_labeled.xlsx` | Excel: DE topics by company with categories |
-| `results/DAX/topics/topics_all_companies_en_labeled.xlsx` | Excel: EN topics by company with categories |
+| `results/DAX/topics/topics_all_companies_de_labeled.xlsx` | 3-tab Excel: Summary, Topics, Representative PRs (DE direction) |
+| `results/DAX/topics/topics_all_companies_en_labeled.xlsx` | 3-tab Excel: Summary, Topics, Representative PRs (EN direction) |
