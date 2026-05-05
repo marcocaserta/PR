@@ -71,96 +71,53 @@ Companies with largest asymmetry: Bayer (EN→DE 0.682 vs DE→EN 0.922), Teleko
 
 ## Topic Modeling
 
-BERTopic run **per company** on untranslated PRs (bottom 20th percentile of similarity). Produced **95 topics** across 39 companies for the DE direction, and **90 topics** across 40 companies for the EN direction.
+BERTopic run **per company** on untranslated PRs (bottom 20th percentile of similarity), matching the methodology of the Italian study. Produced **220 topics** across 45 companies for the DE direction, and **214 topics** across 45 companies for the EN direction.
 
-### German PRs Not Matched in English (95 topics, 3,869 docs across 39 companies)
+### German PRs Not Matched in English (220 topics, 5,771 docs)
 
-| Category                     | Topics | Docs  |     % |
-| ---------------------------- | -----: | ----: | ----: |
-| Industry / Operations        |     31 | 1,547 | 40.0% |
-| Financial / Capital Markets  |     17 |   530 | 13.7% |
-| Local Operations / Training  |     10 |   459 | 11.9% |
-| Regulatory / Governance      |     10 |   380 |  9.8% |
-| ESG / Sustainability         |      9 |   253 |  6.5% |
-| Local Community              |      7 |   199 |  5.1% |
-| Digital / Innovation         |      4 |   196 |  5.1% |
-| Consumer Products            |      3 |   115 |  3.0% |
-| Media / Entertainment        |      2 |    98 |  2.5% |
-| Legal / Boilerplate          |      2 |    92 |  2.4% |
+| Category                     | Docs  |     % |
+| ---------------------------- | ----: | ----: |
+| Industry / Operations        | 1,230 | 21.3% |
+| Financial / Capital Markets  |   888 | 15.4% |
+| Digital / Innovation         |   730 | 12.6% |
+| ESG / Sustainability         |   664 | 11.5% |
+| Local Operations / Training  |   550 |  9.5% |
+| Consumer Products            |   476 |  8.2% |
+| Local Community              |   430 |  7.5% |
+| Regulatory / Governance      |   343 |  5.9% |
+| Media / Entertainment        |   313 |  5.4% |
+| Legal / Boilerplate          |   147 |  2.5% |
 
-**Largest German-only topics:**
+### English PRs Not Matched in German (214 topics, 6,269 docs)
 
-| Company | Docs | Content |
-| ------- | ---: | ------- |
-| Siemens | 358 | Industrial automation products & digital solutions (German-language product PRs) |
-| Daimler Truck | 251 | Bus & truck operations, site infrastructure, local events |
-| Porsche | 378 | Porsche SE investments, financial results & governance |
-| MTU | 137 | Engine programs, leadership appointments & apprentice awards |
-| Telekom | 138 | Fiber broadband rollout & regional infrastructure |
-| Henkel | 115 | Consumer products: hair care, body care, laundry (Schwarzkopf, Fa, Perwoll) |
-| SAP | 45 | German enterprise customer implementations & Industry 4.0 |
-
-### English PRs Not Matched in German (90 topics, 3,737 docs across 40 companies)
-
-| Category                     | Topics | Docs  |     % |
-| ---------------------------- | -----: | ----: | ----: |
-| Financial / Capital Markets  |     36 | 1,380 | 36.9% |
-| Industry / Operations        |     24 | 1,098 | 29.4% |
-| ESG / Sustainability         |     10 |   432 | 11.6% |
-| International Markets        |      9 |   395 | 10.6% |
-| Pharma / Healthcare          |      3 |   188 |  5.0% |
-| Technology / Digital         |      3 |   131 |  3.5% |
-| Digital / Innovation         |      2 |    52 |  1.4% |
-| Legal / Boilerplate          |      1 |    15 |  0.4% |
-| Media / Entertainment        |      1 |    16 |  0.4% |
-| Regulatory / Governance      |      1 |    30 |  0.8% |
-
-**Largest English-only topics:**
-
-| Company | Docs | Content |
-| ------- | ---: | ------- |
-| Siemens | 332 | Industrial automation & digitalization solutions (international product PRs) |
-| BMW | 278 | Vehicle specifications, motorsport & electric mobility |
-| Telekom | 262 | International telecom operations & 5G rollout |
-| Daimler Truck | 237 | Electric truck deliveries & fleet electrification |
-| Bayer | 188 | Oncology, cardiology & ophthalmology clinical trials |
-| Deutsche Bank | 218 | Investment banking conferences & diversity programs |
-| Rheinmetall | 150 | International defense contracts & system deliveries |
+| Category                     | Docs  |     % |
+| ---------------------------- | ----: | ----: |
+| Financial / Capital Markets  | 1,312 | 20.9% |
+| ESG / Sustainability         | 1,078 | 17.2% |
+| Technology / Digital         | 1,052 | 16.8% |
+| Industry / Operations        |   957 | 15.3% |
+| International Markets        |   573 |  9.1% |
+| Media / Entertainment        |   532 |  8.5% |
+| Regulatory / Governance      |   439 |  7.0% |
+| Pharma / Healthcare          |   235 |  3.7% |
+| Legal / Boilerplate          |    91 |  1.5% |
 
 ## Key Findings
 
-### 1. Germany does NOT show a systematic ESG communication gap
+### 1. ESG is communicated MORE in English than in German
 
-Unlike Spain (where 23.6% of Spanish-only content was ESG), German companies show only **6.5% ESG** in their untranslated German content. The dominant untranslated German content is:
+**17.2% of English-only content is ESG**, compared to **11.5% of German-only content**. This is the opposite of Spain, where ESG was disproportionately in the local language. German companies treat sustainability as an **investor-facing** topic, directing it toward international ESG rating agencies and institutional investors rather than domestic audiences.
 
-- **Industry/Operations** (40%): German-language product press releases, technical specifications, site operations
-- **Financial** (14%): Quarterly results published in German for domestic investors
-- **Local operations/training** (12%): Apprenticeships, vocational training, site events
-
-ESG content that stays in German is limited to specific cases: Commerzbank's environmental internship in national parks, Bayer's sustainable agriculture, K+S environmental reclamation, and a few diversity initiatives.
-
-### 2. English-only content has MORE ESG than German-only
-
-**11.6% of English-only content is ESG** — nearly double the German-only rate. This includes:
-- BMW electric mobility & sustainability
-- Covestro circular economy
-- HeidelbergMaterials carbon capture & net-zero cement
-- ThyssenKrupp green steel & hydrogen
-- Zalando supply chain sustainability
-- Deutsche Bank gender equality programs
-
-This suggests German companies communicate ESG **primarily in English** for international ESG rating agencies and investors, rather than in German for domestic audiences.
-
-### 3. The language split maps to content type and audience
+### 2. The asymmetry reveals a strategic choice
 
 | | German-only content | English-only content |
 |---|---|---|
-| **Dominant theme** | Industry/Ops (40%) + Financial (14%) | Financial (37%) + Industry (29%) |
-| **ESG share** | 6.5% | 11.6% |
-| **Unique content** | Consumer products, local training, media/entertainment | Pharma trials, international markets, ESG |
-| **Target audience** | Domestic customers, employees, local communities | International investors, regulators, clinical community |
+| **Dominant themes** | Industry/Ops (21%) + Financial (15%) + Digital (13%) | Financial (21%) + ESG (17%) + Technology (17%) |
+| **ESG share** | **11.5%** | **17.2%** |
+| **Unique content** | Consumer products (8%), local community (8%), media/entertainment (5%) | Pharma/healthcare (4%), international markets (9%) |
+| **Target audience** | Domestic customers, employees, local communities | International investors, ESG raters, clinical community |
 
-### 4. Three distinct communication patterns
+### 3. Three distinct communication patterns
 
 **Pattern A: Near-perfect translation** (ThyssenKrupp, Mercedes, Lufthansa, HeidelbergMaterials, Scout24)
 - Industrial companies with regulatory obligations to publish bilingually
@@ -176,26 +133,28 @@ This suggests German companies communicate ESG **primarily in English** for inte
 - English-only content: pharma trials, cloud technology, regulatory filings, ESG reporting
 - DE→EN high (>0.87), EN→DE lower (0.68–0.80)
 
-### 5. Comparison with Spain and Italy
+### 4. Comparison with Spain and Italy
 
 | | Spain (IBEX-35) | Italy (FTSE MIB) | **Germany (DAX)** |
 |---|---|---|---|
-| ESG in local-only content | **23.6%** | 9.1% | **6.5%** |
-| ESG in English-only content | 14.6% | 9.5% | **11.6%** |
-| Main driver of gap | ESG communication gap | Audience segmentation | **Content type segmentation** |
-| Dominant local-only | Local events (30%) + ESG (24%) | Industry/Ops (36%) | Industry/Ops (40%) + Financial (14%) |
-| Dominant English-only | Corporate (48%) | International Markets (39%) | Financial (37%) + Industry (29%) |
+| ESG in local-only content | **23.6%** | 9.1% | **11.5%** |
+| ESG in English-only content | 14.6% | 9.5% | **17.2%** |
+| Main driver of gap | ESG communication gap | Audience segmentation | **ESG directed to English** |
+| Dominant local-only | Local events (30%) + ESG (24%) | Industry/Ops (36%) | Industry/Ops (21%) + Financial (15%) |
+| Dominant English-only | Corporate (48%) | International Markets (39%) | Financial (21%) + ESG (17%) + Tech (17%) |
 | Average similarity | EN→ES 0.889 / ES→EN 0.852 | EN→IT 0.864 / IT→EN 0.847 | EN→DE 0.880 / DE→EN 0.882 |
 
-### 6. The key insight
+### 5. The key insight
 
-The three markets reveal three different communication strategies:
+The three markets reveal three different ESG communication strategies:
 
-- **Spain**: Companies fail to translate ESG content → missed opportunity for international ESG reputation. The gap is driven by local sustainability initiatives (renewable energy, social inclusion) that stay in Spanish.
-- **Italy**: Companies segment by business model — retail vs institutional, domestic vs export. The gap reflects organizational structure.
-- **Germany**: Companies segment by **content type**. Technical product information and local operations stay in German; financial reporting and ESG communications go to English. German companies appear to treat ESG as an **investor-facing** topic rather than a domestic one — the opposite of Spain.
+- **Spain**: Companies communicate ESG **locally** (in Spanish) but fail to translate it internationally → missed opportunity for ESG reputation with international investors.
+- **Italy**: ESG is translated at similar rates in both directions (9.1% vs 9.5%) → no systematic gap; the translation gap is driven by audience segmentation (retail vs institutional).
+- **Germany**: Companies communicate ESG **internationally** (in English) more than domestically → ESG is treated as an investor-relations tool rather than a local stakeholder engagement tool.
 
-This suggests that the ESG communication gap is not universal but market-specific. German companies, operating under EU disclosure requirements (CSRD, EU Taxonomy) and with strong institutional investor pressure, direct their sustainability communications toward international audiences. Spanish companies, by contrast, generate ESG content for local stakeholders (municipalities, regulators, communities) but fail to translate it internationally.
+This suggests that German companies, operating under EU disclosure requirements (CSRD, EU Taxonomy) and with strong institutional investor pressure, have adopted ESG communication as part of their international investor relations strategy. Spanish companies, by contrast, generate ESG content for local stakeholders but fail to translate it for international audiences.
+
+The German approach may be more strategically effective for ESG ratings (which rely on English-language disclosures), but it raises questions about whether domestic stakeholders — employees, communities, regulators — are equally informed about corporate sustainability efforts.
 
 ## Output Files
 
@@ -206,8 +165,8 @@ This suggests that the ESG communication gap is not universal but market-specifi
 | `results/DAX/similarity_mpnet.json` | Per-company cross-lingual similarity scores |
 | `results/DAX/corpus_summary.xlsx` | Corpus statistics by company |
 | `results/DAX/analysis_summary.xlsx` | Three sheets: similarity, DE topics, EN topics |
-| `results/DAX/topics/topics_untranslated_de.json` | Per-company BERTopic results: 95 topics (DE not in EN) |
-| `results/DAX/topics/topics_untranslated_en.json` | Per-company BERTopic results: 90 topics (EN not in DE) |
+| `results/DAX/topics/topics_untranslated_de.json` | Per-company BERTopic: 220 topics (DE not in EN) |
+| `results/DAX/topics/topics_untranslated_en.json` | Per-company BERTopic: 214 topics (EN not in DE) |
 | `results/DAX/topics/topics_labeled_de.json` | Labeled DE topics with categories |
 | `results/DAX/topics/topics_labeled_en.json` | Labeled EN topics with categories |
 | `results/DAX/topics/topics_all_companies_de_labeled.xlsx` | 3-tab Excel: Summary, Topics, Representative PRs (DE direction) |
